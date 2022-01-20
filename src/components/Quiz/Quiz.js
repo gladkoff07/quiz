@@ -42,7 +42,7 @@ const Quiz = ({ questions }) => {
       {showScore ? (
         <QuizResult>
           <QuizResultInfo>
-            Правильных вопросов <span>{score}</span> из {questions.length}
+            Правильных ответов <span>{score}</span> из {questions.length}
           </QuizResultInfo>
           <Button margin='top' onClick={resultRefresh}>
             Попробовать еще раз!
